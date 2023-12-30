@@ -1,5 +1,5 @@
 import { useContext, useState } from "react";
-import { Context } from "../context/context";
+import { Context } from "../context/Context";
 import ColorLayer from "../components/gradientLayer/ColorLayer";
 import Radio from "../components/shared/Radio";
 import Checkbox from "../components/shared/Checkbox";

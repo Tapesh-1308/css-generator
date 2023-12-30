@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { Context } from "../context/context";
+import { Context } from "../context/Context";
 import ShadowLayer from "../components/shadowLayer/ShadowLayer";
 import Checkbox from "../components/shared/Checkbox";
 

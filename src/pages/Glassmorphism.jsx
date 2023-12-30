@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import Slider from "../components/shared/Slider";
-import { Context } from "../context/context";
+import { Context } from "../context/Context";
 import Checkbox from "../components/shared/Checkbox";
 
 const Glassmorphism = () => {

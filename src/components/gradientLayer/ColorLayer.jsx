@@ -1,6 +1,6 @@
 import { TiDelete } from "react-icons/ti";
 import ColorPicker from "../shared/ColorPicker";
-import { Context } from "../../context/context";
+import { Context } from "../../context/Context";
 import { useContext } from "react";
 
 const ColorLayer = ({ layer, index }) => {

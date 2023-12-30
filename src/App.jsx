@@ -5,7 +5,7 @@ import Container from "./components/Container";
 import ContainerProperties from "./components/ContainerProperties";
 import CSSCode from "./components/CSSCode";
 import { useContext } from "react";
-import { Context } from "./context/context";
+import { Context } from "./context/Context";
 
 const gridItemStyles = "p-5 lg:h-full overflow-y-auto";
 
