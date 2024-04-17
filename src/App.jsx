@@ -19,7 +19,9 @@ function App() {
           <Outlet />
         </div>
         <div className={`col-span-2 bg-gray-400 ${gridItemStyles} lg:rounded-xl`} style={{
-          backgroundImage: `url(${state.glassmorphism.active && state.glassmorphism.backgroundUrl})`
+          backgroundImage: `url(${state.glassmorphism.active && state.glassmorphism.backgroundUrl})`,
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover"
         }}>
           <Container />
         </div>
